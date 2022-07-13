@@ -1,0 +1,7 @@
+Questionable use of curly braces in "(pin (num "1") (name "~{reset}/pb5") (type "bidirectional"))"
+    Error: undefined symbol in: "[reset]"
+Questionable use of curly braces in "(node (ref "u1") (pin "1") (pinfunction "~{reset}/pb5") (pintype "bidirectional")))"
+    Error: undefined symbol in: "[reset]"
+Circuit: (export (version "E")
+
+Fatal Error: Unknown SPICE device type "(" in "(design"

@@ -1,0 +1,18 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C8,C7,C5,C11";"C_0201_0603Metric";4;"0.1uF";;;
+2;"C6,C10,C9,C4,C12,C3,C2,C1";"CP_EIA-3216-18_Kemet-A";8;"10uF";;;
+3;"RV1";"Potentiometer_Bourns_3214W_Vertical";1;"1k";;;
+4;"R6,R5";"R_0201_0603Metric";2;"100k";;;
+5;"U3,U2";"TO-263-7_TabPin8";2;"OPAMP";;;
+6;"Motor+1,External_(-6V)1,External_(+6V)1,Motor-1";"SolderWirePad_1x01_SMD_1x2mm";4;"Conn_01x01";;;
+7;"D7,D6";"D_SOD-123";2;"D_Zener";;;
+8;"D1,D5";"D_SOD-123";2;"D_Schottky";;;
+9;"R1";"R_0603_1608Metric";1;"100k";;;
+10;"Enable_Current_sense,JP1,Torque_mode_EN";"SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm";3;"Jumper_2_Open";;;
+11;"Current_Sense";"PinHeader_1x01_P1.00mm_Vertical";1;"PinHeader_1x01_P1.00mm_Vertical";;;
+12;"U4";"SOT-89-3";1;"L78L05_SO8";;;
+13;"U1";"SOIC-8W_5.3x5.3mm_P1.27mm";1;"ATtiny85-20S";;;
+14;"R8,R7";"R_0805_2012Metric";2;"220";;;
+15;"D4,D3";"LED_0603_1608Metric";2;"LED";;;
+16;"ONEV_2";"PinHeader_1x06_P1.00mm_Vertical";1;"PinHeader_1x06_P1.00mm_Vertical";;;
+17;"R3";"R_2512_6332Metric";1;"0.1";;;
