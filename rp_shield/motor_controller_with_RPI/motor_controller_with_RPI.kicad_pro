@@ -20,11 +20,11 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.0255,
+        "fab_line_width": 0.09999999999999999,
         "fab_text_italic": false,
-        "fab_text_size_h": 0.0255,
-        "fab_text_size_v": 0.0255,
-        "fab_text_thickness": 0.255,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
         "fab_text_upright": false,
         "other_line_width": 0.15,
         "other_text_italic": false,
@@ -33,14 +33,14 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.85,
-          "width": 0.85
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.15,
-        "silk_text_size_v": 0.22499999999999998,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -48,17 +48,8 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
-      "drc_exclusions": [
-        "via_dangling|200100000|47700000|e257e694-50ae-4676-9356-ff57a7ec6959|00000000-0000-0000-0000-000000000000",
-        "via_dangling|200100000|60000000|d9c5504d-9622-4b0c-a2c1-39a51c5c8b7f|00000000-0000-0000-0000-000000000000"
-      ],
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -121,16 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0,
-        0.4
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -350,14 +333,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "torque_motor_design.kicad_pro",
+    "filename": "motor_controller_with_RPI.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.15,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -384,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "torque_motor_design.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -410,7 +393,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -429,7 +412,7 @@
   },
   "sheets": [
     [
-      "a9109c07-402d-48ae-af18-1629d75b7823",
+      "fdd2de03-662c-42ad-87ee-d75fe651d476",
       ""
     ]
   ],
