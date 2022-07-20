@@ -1,6 +1,3 @@
-# Servo_Torque_Control_Driver
-This repo contains torque control driver developed by me to enable easy torque control for any dc motor.
+The version 1.1 uses attiny blue board for the controller rather than having a on-board SOC. 
 
-<img src="https://github.com/ONEV2/Servo_Torque_Control_Driver/blob/main/Images/Schematic.png">
-
-<img src="https://github.com/ONEV2/Servo_Torque_Control_Driver/blob/main/Images/Routing.png">
+The driver board acts as a shield for the blue board to be attached and detached on the go.
